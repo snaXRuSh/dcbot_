@@ -23,7 +23,7 @@
     var arguments2, command, member_xp, member_level;
 
 
-    await s4d.client.login('ODc4NjU1MDgwODY4NDkxMzA0.YSEVTw.rXQi_3wBS9PmSFjcqVgC931j4Wc').catch((e) => {
+    await s4d.client.login('token').catch((e) => {
         s4d.tokenInvalid = true;
         s4d.tokenError = e;
     });
